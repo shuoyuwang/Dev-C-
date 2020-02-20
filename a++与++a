@@ -1,0 +1,18 @@
+int main()
+{
+  	int a = 10;
+  	
+	printf("a++= %d\n",a++);
+	printf("a=%d\n",a); 
+	
+	printf("++a=%d\n",++a);
+	printf("a=%d\n",a); 
+	return 0; 
+ } 
+
+a++= 10
+a=11
+++a=12
+a=12
+
+结果都是a加一，不一样的是运算符的结果
